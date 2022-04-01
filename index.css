@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.title-container {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: white;
+    position: absolute;
+    font-family: 'Roboto', monospace, sans-serif;
+    font-size: 45px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 50px auto;
+}
+
+.subtitle {
+    color: white;
+    position: absolute;
+    font-family: 'Roboto', monospace, sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin: 125px auto;
+}
+
+.background {
+    background: linear-gradient(to bottom right, rgb(8, 51, 130) 50%, white 50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 750px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.section-title {
+    font-family: 'Roboto', monospace, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 25px 0;
+}
+
+.section-title::before, .section-title::after {
+    content: " ";
+    height: 1px;
+    width: 35px;
+    background: black;
+    display: inline-block;
+    margin: 0 15px;
+    transform: translateY(-10px);
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.info {
+    display: flex;
+    width: 60%;
+    max-width: 800px;
+}
+
+.info p {
+    font-family: 'Roboto', monospace, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify; 
+}
+
+.trofeos-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+ul li {
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.trofeos-container img {
+    width: 200px;
+    object-fit: contain;
+}
+
+.plantilla-container {
+    margin-bottom: 100px;
+}
+
+.carta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carta img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px 0 10px;
+    opacity: 0.9;
+}
+
+.carta img:hover {
+    transform: translateY(-10px);
+    transition: transform .3s ease;
+    opacity: 1;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+}
+
+.carta p {
+    color: rgb(80, 80, 80);
+    margin: 0;
+    padding: 0;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.formulario-elems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer p {
+    color: rgb(80, 80, 80);
+    text-align: center;
+}
